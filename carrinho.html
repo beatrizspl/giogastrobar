@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="cardapio.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--------------SCROLL TOP------------------------>
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class='bx bx-chevrons-up scroll__top__icon'></i>
+  </a>
+    <header class="header" id="header">
+      <!-- NAV -->
+      <nav class="nav bd-container">
+          <img src="/images/logo.png" alt="logo" width="100" height="90">
+
+          <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                  <li class="nav__item"><a href="login.html" class="btn">LOGIN</a></li>
+              </ul>
+          </div>
+
+          <!--MENU TOGGLE-->
+          <div class="nav__toggle">
+              <i class='bx bx-menu-alt-right' id="nav-toggle"></i>
+          </div>
+          <!-- END MENU TOGGLE -->
+      </nav>
+      <!-- END NAV -->
+  </header>
+  <!-- END HEADER -->
+    <h1>Seleção de Itens do Cardápio</h1>
+
+    <div class="quadradinhos">
+        <h2>Itens do Cardápio</h2>
+        <div id="menu-items"></div>
+        <button type="button" onclick="addSelectedItem()">Adicionar</button>
+    </div>
+
+    <div class="quadradinhos">
+        <h2>Seleção de Itens</h2>
+        <form id="select-items-form">
+            <label for="selected-items">Itens Selecionados:</label>
+            <div id="selected-items"></div>
+        </form>
+        <div class="pedir"><a href="login.html" class="btn">Finalizar Pedido</a>
+    </div>
+    </div>
+    <script type="text/javascript" src="carrinho.js"></script>
+</body>
+</html>

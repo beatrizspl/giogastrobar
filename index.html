@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gio Gastrobar</title>
+    <link rel="shortcut icon" href="images/logo.png" type="images/x-icon">
+    <!--BoxIcons-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--------------SCROLL TOP------------------------>
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevrons-up scroll__top__icon'></i>
+    </a>
+
+    <!--------------HEADER------------------------>
+    <header class="header" id="header">
+        <!-- NAV -->
+        <nav class="nav bd-container">
+            <img src="/images/logo.png" alt="logo" width="100" height="90">
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#cardapio" class="nav__link">Cardápio</a></li>
+                    <li class="nav__item"><a href="carrinho.html" class="nav__link">Delivery</a></li>
+                    <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+                    <li class="nav__item"><a href="login.html" class="btn">LOGIN</a></li>
+                </ul>
+            </div>
+
+            <!--MENU TOGGLE-->
+            <div class="nav__toggle">
+                <i class='bx bx-menu-alt-right' id="nav-toggle"></i>
+            </div>
+            <!-- END MENU TOGGLE -->
+        </nav>
+        <!-- END NAV -->
+    </header>
+    <!-- END HEADER -->
+
+    <!--MAIN-->
+    <main>
+        <!--HOME-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Bem vindo ao <span class="logo">GIO</span></h1>
+                    <h2 class="home__subtitle">Viva uma experiência enogastronômica conosco!</h2>
+                    <div class="home__btn">
+                        <a href="reserva.html" class="btn">FAÇA SUA RESERVA</a>
+                        <a href="carrinho.html" class="btn-outline">PEÇA POR DELIVERY</a>
+                    </div>
+                </div>
+
+                <img src="/images/prato.png" alt="prato" class="home__img">
+            </div>
+        </section>
+        <!-- END HOME -->
+
+        <!-- SOBRE -->
+        <section class="about bg-container section" id="sobre">
+            <h1 class="section-title">Sobre</h1>
+            <h2 class="section-subtitle">Um chef apaixonado pela culinária</h2>
+            <div class="about__container bd-container bd-grid">
+                <div class="about__chefs">
+                    <div class="chefs">
+                        <img src="images/luciano.png" alt="Chef Luciano" class="img__chefs">
+                    </div>
+                </div>
+                <div class="about__data">
+                    <p class="section-text">Luciano Rosa é um chefe de culinária Maranhense que consquistou a Medalha de Prata na Copa Mundial de Gastronomia, e também é o embaixador da culinária maranhense no Brasil. </p>
+                    <p class="section-text">Com uma abordagem única e inovadora, Luciano Rosa combina ingredientes frescos e de alta qualidade com técnicas refinadas.</p>  
+                    <p class="section-text">Preapare-se para saborear experiências inesquecíveis e se encantar com as maravilhas que ele cria.</p>
+                </div>
+            </div>
+        </section>
+        <!-- END SOBRE -->
+
+        <!-- CARDÁPIO -->
+        <section class="cardapio section" id="cardapio">
+            <h1 class="csection-title">Cardápio</h1>
+            <h2 class="csection-subtitle">Menu da semana</h2>
+            <div class="cardapio__container bd-container bd-grid">
+                <div class="card">
+                    <div class="card__img">
+                        <img src="/images/salada.png" alt="Salada Primavera">
+                    </div>
+                    <div class="card__data">
+                        <h3>Salada Primavera</h3>
+                        <div class="card__descripition">
+                            <small>Tomate Pão Azeitonas Manjericão</small>
+                        </div>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 22,00</span>
+                    </div>
+                    <i class='bx bxs-cart card__cart'></i>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="images/vieira.png" alt="Salada Green">
+                    </div>
+                    <div class="card__data">
+                        <h3>Vieiras Saint Jacques </h3>
+                        <div class="card__descripition">
+                            <small>Vieiras - Creme de leite fresco</small>
+                        </div>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 16,00</span>
+                    </div>
+                    <i class='bx bxs-cart card__cart'></i>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="images/risoto.png" alt="Salada Green">
+                    </div>
+                    <div class="card__data">
+                        <h3>Risoto Negro de Camarão</h3>
+                        <div class="card__descripition">
+                            <small>Arroz negro Caldo de camarão</small>
+                        </div>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 16,00</span>
+                    </div>
+                    <i class='bx bxs-cart card__cart'></i>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="images/ceviche.png" alt="Salada Fit">
+                    </div>
+                    <div class="card__data">
+                        <h3>Ceviche de Peixe branco</h3>
+                        <div class="card__descripition">
+                            <small>Filé de pescada Molho de soja</small>
+                        </div>
+                    </div>
+                    <div class="card__preci">
+                        <span>R$ 18,50</span>
+                    </div>
+                    <i class='bx bxs-cart card__cart'></i>
+                    </div>
+                    
+                    <div class="delivery__container">
+                        <a href="carrinho.html" class="btn">VEJA MAIS</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- END DELIVERY -->
+
+        <!-- CONTATO -->
+        <section class="contato section" id="contato">
+            <h1 class="bsection-title">Contato</h1>
+            <h2 class="bsection-subtitle">Estamos ansiosos por falar com você</h2>
+            <div class="contato__container bd-container bd-grid">
+                <div class="contato__data">
+                    <div class="contato__cta">
+                        <h3 class="contato__title">Reserva</h3>
+                        <p>Se você deseja fazer uma reseva em nosso restaurante contate-nos e escolha sua data.</p>
+                        <a href="reserva.html" class="btn-outline">FAZER RESERVA</a>
+                    </div>
+                    <div class="contato__cta">
+                        <h3 class="contato__title">Delivery</h3>
+                        <p>Escolha sua refeição para receber em sua casa com todo conforto e tranquilidade.</p>
+                        <a href="carrinho.html" class="btn-outline">FAZER PEDIDO</a>
+                    </div>
+                </div>
+                <div class="contato__form">
+                    <h3 class="contato__title">Fale Conosco</h3>
+                    <form class="form-control">
+                        <label for="name">NOME</label>
+                        <input type="text" id="name">
+                        <label for="email">E-MAIL</label>
+                        <input type="email" id="email">
+                        <label for="mensagem">MENSAGEM</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                        <button class="btn">ENVIAR MENSAGEM</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- END CONTATO -->
+
+        <!-- COMPARTILHAR -->
+        <section class="estamos">
+            <div class="estamos__container">
+                <p>#comemorecomGio</p>
+                <div class="estamos__social">
+                    <i class='bx bxl-instagram insta'></i>
+                    <a href="http://instagram.com/giogastrobarslz"> @giogastrobarslz</a>
+                </div>
+            </div>
+        </section>
+        <!-- END COMPARTILHAR -->
+    </main>
+    <!-- END MAIN -->
+
+    <!-- FOOTER -->
+    <footer class="footer section bg-container">
+        <div class="footer__container bd-container">
+
+            <div class="company">
+                <img src="images/logo.png" alt="logo" width="100" height="90">
+            </div>
+            
+
+            <div class="services">
+                <h3 class="footer__title">Serviços</h3>
+                <a href="reserva.html" class="footer__subtittle">Reservas</a>
+                <a href="carrinho.html" class="footer__subtittle">Delivery</a>
+            </div>
+
+            <div class="info">
+                <h3 class="footer__title">Informações</h3>
+                <a href="" class="footer__subtittle">Política de privacidade</a>
+                <a href="" class="footer__subtittle">Termos de uso</a>
+            </div>
+
+            <div class="addres">
+                <h3 class="footer__title">Endereço</h3>
+                <small class="footer__subtittle">São Luís, MA - Brasil</small>
+                <small class="footer__subtittle">R. do Maçarico, 145 - Quadra 28 - Ponta do Farol.</small>
+                <small class="footer__subtittle">(98) 98305-2449</small>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- END FOOTER -->
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>

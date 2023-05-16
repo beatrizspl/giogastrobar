@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reserva.css">
+    <title>Reserva</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Faça sua reserva!</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome completo</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail para contato</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular para Whatsapp</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) x xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">CPF</label>
+                        <input id="number" type="cpf" name="number" placeholder="xxx.xxx.xxx-xx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="reserva">Tipo de reserva</label>        
+                        <select id="reserva" name="reserva" required>
+                            <option value="0"></option>
+                            <option value="1">Reserva de mesa</option>
+                            <option value="2">Reserva para eventos</option>
+                        </select>   
+                    </div>
+
+                    <div class="input-box">
+                        <label for="data">Data desejada</label>
+                        <input id="datetime-local" type="datetime-local">
+                    </div>
+
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="others" type="radio" name="gender">
+                            <label for="others">Outros <input class="pronome" id="pronome" type="text" name="pronome" placeholder="Como devemos lhe tratar?"></label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="none" type="radio" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
